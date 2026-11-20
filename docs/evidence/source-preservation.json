@@ -1,0 +1,115 @@
+{
+  "starterArchive": "StarterLP08.zip",
+  "archiveSha256": "05c5317b9c1d5c12fae64af7795abf3c2aab4fbfff4c4ef02d47be9050c05693",
+  "allProductSourceAndDataUnchanged": true,
+  "comparisons": [
+    {
+      "file": "src/App.tsx",
+      "starterSha256": "c7590676923ab7bee202b2c462aa05f53f26a8b804e04e1af661e8fde78d7842",
+      "submittedSha256": "c7590676923ab7bee202b2c462aa05f53f26a8b804e04e1af661e8fde78d7842",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/BookingForm.tsx",
+      "starterSha256": "e3b05ce63f01375bebe235ae604349e4d1ffafb782bf2d00be2291dfd2c8f1b6",
+      "submittedSha256": "e3b05ce63f01375bebe235ae604349e4d1ffafb782bf2d00be2291dfd2c8f1b6",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/Featured.tsx",
+      "starterSha256": "94883bd7e2a53efd62163edfc23d94788ee6925fc5221b17b3f6b4e1ce4e078c",
+      "submittedSha256": "94883bd7e2a53efd62163edfc23d94788ee6925fc5221b17b3f6b4e1ce4e078c",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/HeaderBanner.tsx",
+      "starterSha256": "bc64303fd8c88c6eb5e26fddb4d80a4c1caad2592187373f247a41193705c4b3",
+      "submittedSha256": "bc64303fd8c88c6eb5e26fddb4d80a4c1caad2592187373f247a41193705c4b3",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/Layout.tsx",
+      "starterSha256": "82773517b905342ffd4ca797df8f7ccebcce1a1318e9a17579ba3849b1ed8ec5",
+      "submittedSha256": "82773517b905342ffd4ca797df8f7ccebcce1a1318e9a17579ba3849b1ed8ec5",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/RentalCard.tsx",
+      "starterSha256": "17995590754a2b4d86ba2b0a1a9b2e84fc625e722f5f49e3b325b96d7050208b",
+      "submittedSha256": "17995590754a2b4d86ba2b0a1a9b2e84fc625e722f5f49e3b325b96d7050208b",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/Rentals.tsx",
+      "starterSha256": "3d3593c8a3c88c024dc072625b8f6dd102b5d2b5fd673242d0e890612e0870e8",
+      "submittedSha256": "3d3593c8a3c88c024dc072625b8f6dd102b5d2b5fd673242d0e890612e0870e8",
+      "unchanged": true
+    },
+    {
+      "file": "src/context/BookingContext.tsx",
+      "starterSha256": "4cfa7ba8c1ee02774a60d019040f95e73148083bbe0d094f161d9e8608d7bb47",
+      "submittedSha256": "4cfa7ba8c1ee02774a60d019040f95e73148083bbe0d094f161d9e8608d7bb47",
+      "unchanged": true
+    },
+    {
+      "file": "src/context/RentalContext.tsx",
+      "starterSha256": "32112d3d3c6fd04e4593d9e4edf09fd8231e3b994f7fd4802f5265b640851dd2",
+      "submittedSha256": "32112d3d3c6fd04e4593d9e4edf09fd8231e3b994f7fd4802f5265b640851dd2",
+      "unchanged": true
+    },
+    {
+      "file": "src/main.tsx",
+      "starterSha256": "5e6c325d5df8311c7598a7f59692b2c1ede667f4a46f74163723d9e63dba28fd",
+      "submittedSha256": "5e6c325d5df8311c7598a7f59692b2c1ede667f4a46f74163723d9e63dba28fd",
+      "unchanged": true
+    },
+    {
+      "file": "src/pages/AddBooking.tsx",
+      "starterSha256": "51225bad0e77ccabb118d240bffe279caa3bb6ea53e1469b5259f10cbe5d8559",
+      "submittedSha256": "51225bad0e77ccabb118d240bffe279caa3bb6ea53e1469b5259f10cbe5d8559",
+      "unchanged": true
+    },
+    {
+      "file": "src/pages/Bookings.tsx",
+      "starterSha256": "eca9a62b9ce719aa731f136484748ba8d97fbabb86dd12240ff325c5732193d6",
+      "submittedSha256": "eca9a62b9ce719aa731f136484748ba8d97fbabb86dd12240ff325c5732193d6",
+      "unchanged": true
+    },
+    {
+      "file": "src/pages/Home.tsx",
+      "starterSha256": "cab03d031fce1515100761f182d66f384e06ff13cfe3de3c193c48cfb8c7ecfb",
+      "submittedSha256": "cab03d031fce1515100761f182d66f384e06ff13cfe3de3c193c48cfb8c7ecfb",
+      "unchanged": true
+    },
+    {
+      "file": "src/styles/globals.css",
+      "starterSha256": "82c39fcc9632c0daab7c53a8c6c4946c0da049b13a6deb8e67a8548a182c14b4",
+      "submittedSha256": "82c39fcc9632c0daab7c53a8c6c4946c0da049b13a6deb8e67a8548a182c14b4",
+      "unchanged": true
+    },
+    {
+      "file": "src/styles/nav.css",
+      "starterSha256": "02c438ec2ae94f3ac8dcf46c8d93ab9517bedce1fcf54016634cf4b1ee40eb85",
+      "submittedSha256": "02c438ec2ae94f3ac8dcf46c8d93ab9517bedce1fcf54016634cf4b1ee40eb85",
+      "unchanged": true
+    },
+    {
+      "file": "src/types/index.ts",
+      "starterSha256": "31a5ee8f288ca170ef304b76153cdab3f324e5b8fff51ceeb0cf2c23f26ee132",
+      "submittedSha256": "31a5ee8f288ca170ef304b76153cdab3f324e5b8fff51ceeb0cf2c23f26ee132",
+      "unchanged": true
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "starterSha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "submittedSha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "unchanged": true
+    },
+    {
+      "file": "db.json",
+      "starterSha256": "bb4615b5bdc82a7fd4c9f191240bd66e82e0b1f360eabb11e95f846103e76b84",
+      "submittedSha256": "bb4615b5bdc82a7fd4c9f191240bd66e82e0b1f360eabb11e95f846103e76b84",
+      "unchanged": true
+    }
+  ]
+}

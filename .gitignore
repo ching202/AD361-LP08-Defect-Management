@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*Zone.Identifier*
+*.log
+.DS_Store

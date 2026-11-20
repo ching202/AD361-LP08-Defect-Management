@@ -1,0 +1,14 @@
+TEST-01: Added evidence harness initially failed before executing application checks.
+
+Observed error excerpt:
+Jest encountered an unexpected token
+src/styles/nav.css:1
+.navbar {
+^
+SyntaxError: Unexpected token '.'
+
+Cause: the ^@/(.*)$ module alias was listed before the CSS mock mapping.
+Correction: list the CSS mock mapping first in jest.config.cjs.
+Result: the full evidence suite then executed successfully, without any product-source change.
+
+This issue belongs to the newly added test setup. It is not one of the starter app's product defects and was not a supplied instructor test.

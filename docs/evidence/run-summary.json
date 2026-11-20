@@ -1,0 +1,124 @@
+{
+  "note": "These checks capture observed behavior, including defects. Passing is not product acceptance.",
+  "identicalObservations": true,
+  "runs": [
+    {
+      "phase": "initial",
+      "passedCaptureChecks": 13,
+      "failedCaptureChecks": 0,
+      "tests": [
+        {
+          "name": "OBS-01: captures the lower allowed guest boundary",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-02: captures the upper allowed guest boundary",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-03: checks that zero guests is blocked by native validation",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-04: checks that a missing date is blocked by native validation",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-05: reproduces acceptance of thirteen guests",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-06: reproduces acceptance of a blank guest value",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-07: reproduces a blank stored rental when selection is untouched",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-08: records the missing checkout and stay-length controls",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-09: records identical rental/date bookings accepted twice",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-10: records the absence of a cleaning fee or total in the saved view",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-11: reproduces the empty rental list on a fresh direct booking route",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-12: records unchanged content after the More and Save buttons",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-13: records that bookings disappear after the app is remounted",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "phase": "repeat",
+      "passedCaptureChecks": 13,
+      "failedCaptureChecks": 0,
+      "tests": [
+        {
+          "name": "OBS-01: captures the lower allowed guest boundary",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-02: captures the upper allowed guest boundary",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-03: checks that zero guests is blocked by native validation",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-04: checks that a missing date is blocked by native validation",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-05: reproduces acceptance of thirteen guests",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-06: reproduces acceptance of a blank guest value",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-07: reproduces a blank stored rental when selection is untouched",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-08: records the missing checkout and stay-length controls",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-09: records identical rental/date bookings accepted twice",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-10: records the absence of a cleaning fee or total in the saved view",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-11: reproduces the empty rental list on a fresh direct booking route",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-12: records unchanged content after the More and Save buttons",
+          "status": "passed"
+        },
+        {
+          "name": "OBS-13: records that bookings disappear after the app is remounted",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "method": "Unchanged App.tsx and child components rendered with MemoryRouter in jsdom; only GET /rentals is replaced with the supplied db.json fixtures. Native form validation is exercised through user-event submit-button clicks.",
+  "observations": [
+    {
+      "id": "OBS-01",
+      "guests": 1,
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1"
+      ]
+    },
+    {
+      "id": "OBS-02",
+      "guests": 12,
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 12"
+      ]
+    },
+    {
+      "id": "OBS-03",
+      "guests": 0,
+      "valid": false,
+      "rangeUnderflow": true,
+      "rows": []
+    },
+    {
+      "id": "OBS-04",
+      "date": "",
+      "valid": false,
+      "valueMissing": true,
+      "rows": []
+    },
+    {
+      "id": "OBS-05",
+      "guests": 13,
+      "valid": true,
+      "maximum": null,
+      "formTextAfterSubmit": "Book a StayRental:Cozy CabinBeachfront CondoLuxury VillaMountain RetreatDowntown LoftDesert OasisLakeside CottageSki ChaletHistoric BrownstoneTropical BungalowDate:Number of Guests:Confirm Booking",
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 13"
+      ]
+    },
+    {
+      "id": "OBS-06",
+      "guests": "",
+      "valid": true,
+      "required": false,
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: "
+      ]
+    },
+    {
+      "id": "OBS-07",
+      "displayedRental": "Cozy Cabin",
+      "selectionChanged": false,
+      "rows": [
+        "Rental:  Date: 2026-12-10 Guests: 1"
+      ]
+    },
+    {
+      "id": "OBS-08",
+      "controls": [
+        {
+          "name": "rental",
+          "type": null
+        },
+        {
+          "name": "date",
+          "type": "date"
+        },
+        {
+          "name": "guests",
+          "type": "number"
+        }
+      ],
+      "checkoutControlPresent": false,
+      "nightsControlPresent": false
+    },
+    {
+      "id": "OBS-09",
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1",
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1"
+      ],
+      "limitation": "This demonstrates no duplicate guard; absent checkout and availability fixtures prevent a full occupied-night acceptance test."
+    },
+    {
+      "id": "OBS-10",
+      "rows": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1"
+      ],
+      "bookingView": "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1",
+      "limitation": "No payment is performed. Missing pricing is reported, not an observed incorrect charge."
+    },
+    {
+      "id": "OBS-11",
+      "initialRoute": "/bookings/add",
+      "options": [],
+      "rentalFetchCalls": 0
+    },
+    {
+      "id": "OBS-12",
+      "moreChangedContent": false,
+      "saveChangedContent": false,
+      "sourceCheck": "RentalCard.tsx contains no handlers for More, Save, FavoriteBorderIcon, or ShareIcon."
+    },
+    {
+      "id": "OBS-13",
+      "before": [
+        "Rental: Beachfront Condo Date: 2026-12-10 Guests: 1"
+      ],
+      "after": [],
+      "classification": "Requires investigation: persistence after a reload is not specified in the six supplied requirements."
+    }
+  ]
+}
