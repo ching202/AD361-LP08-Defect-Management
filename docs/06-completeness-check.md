@@ -28,7 +28,7 @@
 | --- | --- | --- |
 | 1:09-1:12 | Use versions and IDs to connect tests, results, and reports. | Requirement IDs R1-R6, findings F1-F9, defect IDs, observation IDs, original source hashes, and a dependency lockfile. |
 | 1:13-1:14 | A defect report explains a difference between expected and actual results and supports reproduction. | The full report states exactly which invalid input is accepted and the actual stored row. |
-| 1:15-1:17 | Include ID, author, environment, steps, expected/actual results, severity, priority, status, and references. | All fields are present in DEF-01, with actual supporting files. |
+| 1:15-1:17 | Include ID, author and role, reporting context, environment, testing phase/technique, steps, expected/actual results, severity, priority, status, and references. | DEF-01 explicitly identifies the student tester, coursework context, development testing, boundary/invalid-input techniques, and the required report fields, with actual supporting files. |
 | 1:16-1:17 | Severity and priority are different. | Every product defect has an impact rating and a separate fix-timing rating; DEF-07 is High severity / Medium priority. |
 | 1:22-1:25 | More/Save/favorite/share should act; related controls can be grouped when they share the issue. | Supplemental DEF-07 groups the unimplemented card actions. DEF-02 similarly groups the two date-range rules while preserving both requirement links. |
 | 1:31:57-1:32:32 | Planned starter tests may be absent; most homework findings can be product defects. | No invented supplied tests or forced change-request category. New verification checks are clearly labeled as added work. |
@@ -36,3 +36,9 @@
 | 1:34-1:36 | Track discovery, investigation, fixing, retesting, and closure. | Defects stay open after reproduction. The report defines evidence needed for future closure and distinguishes a repeat failure from confirmation of a fix. |
 
 The partner project, its two-defect minimum, AI-prompt section, presentation, and partner contribution requirements belong to the final project. They are not added to this learning practice, whose README requests one complete defect report. The general late-work/resubmission reminders do not change these deliverables.
+
+## Pre-submission review
+
+The original ZIP README and relevant transcript passages were checked again against the published submission. All three numbered deliverables are present. Every confirmed product defect has severity and priority ratings, and all six written product rules are mapped to a finding or documented implementation gap. The defect report includes every template field plus the lecture's role, reporting context, and testing-technique details. Evidence files and document links are present; both runs contain the same 13 observations, and the original product source remains unchanged.
+
+The learning objective about tracking through retesting and closure is covered by the status register and explicit future confirmation/closure conditions. The numbered instructions do not require implementing fixes. The submission therefore distinguishes actual reproduction from a proposed successful retest and does not mark an unfixed product defect Closed. The remaining submission step is to paste the public repository URL into Canvas.

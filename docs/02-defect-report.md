@@ -5,10 +5,12 @@
 | Defect ID | DEF-01 |
 | Title | Booking accepts more than 12 guests without an error |
 | Date reported | November 20, 2026 |
-| Reporter | Ching (`ching202`), with AI assistance |
+| Reporter / role | Ching (`ching202`), student tester, with AI assistance |
+| Reporting context | Learning Practice 08 coursework; individual defect-management report. |
 | Application / feature | North Vacation Booking / Add Booking / guest validation |
 | Test environment | Windows; Node.js 24.22.3; npm 11.6.2; React 18.3.1; React Router 6.30.6; Vite 5.4.21. Executed with Jest 30.5.2, jest-environment-jsdom 30.5.2, React Testing Library 16.3.3, and user-event 14.6.13. |
 | Source under test | Original `StarterLP08.zip` application source and `db.json`; no product fixes applied. |
+| Testing phase / technique | Development testing of the integrated React booking flow; boundary-value and invalid-input testing, supported by source review. |
 | Preconditions | Rentals have loaded from the supplied data by first visiting Home. Start with a fresh app instance and no saved bookings. The Beachfront Condo rental is available in the dropdown. |
 | Related requirements | R1: 1-12 guests. R6: invalid information must produce an error. |
 | Related test / finding | TC-LP08-01 / F1; automated evidence OBS-05. OBS-06 captures a related empty-guest variant. |

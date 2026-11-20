@@ -16,7 +16,7 @@ This submission investigates the North Vacation Booking starter application agai
 
 The review found **five product defects tied to the written requirements**, plus **two additional product defects**, **one finding needing requirement clarification**, and **one resolved issue in the added evidence-capture setup**. The additional findings are clearly labeled so they do not get confused with the six written requirements.
 
-The assignment asks for defect management, not repairs to the application. The original application source and data are unchanged. Product defects remain **Open / reproduced**. Retesting and closure steps are proposed; no unperformed fixes or successful confirmation tests are claimed.
+The README's three numbered deliverables require classification, a defect report, and severity/priority ratings; they do not explicitly require application repairs. Its separate lifecycle learning objective is addressed with a status register, proposed confirmation tests, and closure/reopen criteria. The original application source and data are unchanged. Product defects remain **Open / reproduced**; no unperformed fixes or successful confirmation tests are claimed.
 
 ## Run the app
 
